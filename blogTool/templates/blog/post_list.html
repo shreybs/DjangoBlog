@@ -10,7 +10,7 @@
     </head>
     <body style="background-image: linear-gradient(to right top, #5b0000, #790030, #870e65, #783ba0, #1a63d6); padding-left: 15px; font-family: 'Lobster'; color: rgb(255, 255, 255); font-size: 30px;">
         <div class="page-header" style="color:white;">
-            <h1><a href="/">Shreyas' Django Blog</a></h1>
+            <h1><a href="/" style="color:white; text-decoration: none;">Shreyas' Django Blog</a></h1>
         </div>
 
         <div class="content container">
@@ -21,7 +21,7 @@
                                 <div class="date">
                                     <p style="padding-left: 15px;">published: {{ post.published_date }}</p>
                                 </div>
-                                <h1 style="color: rgb(255, 255, 255); font-family: Times;"><a href="">{{ post.title }}</a></h1>
+                                <h1 style="color: rgb(255, 255, 255); font-family: Times;"><a href="" style="color:white; text-decoration: none;">{{ post.title }}</a></h1>
                                 <p style="color: rgb(255, 255, 255); font-family: 'Times New Roman', Times, serif; font-size: 16px;">{{ post.text|linebreaksbr }}</p>
                             </div>
                         {% endfor %}
