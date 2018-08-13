@@ -2,19 +2,20 @@
 <html>
     <head>
         <title>A Django blog</title>
-        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
         <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 
     </head>
     <body style="background-image: linear-gradient(to right top, #5b0000, #790030, #870e65, #783ba0, #1a63d6); padding-left: 15px; font-family: 'Lobster'; color: rgb(255, 255, 255); font-size: 30px;">
-        <div class="page-header">
+        <div class="page-header" style="color:white;">
             <h1><a href="/">Shreyas' Django Blog</a></h1>
         </div>
 
         <div class="content container">
                 <div class="row">
-                    <div class="col-md-8" ></div>
+                    <div class="col-md-8" style="color:white;"></div>
                         {% for post in posts %}
                             <div class="post">
                                 <div class="date">
